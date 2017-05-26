@@ -6,6 +6,11 @@
     <link rel="stylesheet" href="/static/css/bootstrap.css">
 </head>
 <body>
+    <ul class="nav nav-tabs nav-justified">
+        <li><a href="/">Home</a></li>
+        <li class="active"><a href="/users">Users</a></li>
+        <li><a href="/results">Results</a></li>
+    </ul>
     {% for person in people %}
       <h3>{{ person }}</h3>
     {% endfor %}
